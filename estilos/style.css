@@ -66,8 +66,33 @@ main {
     padding: 10px;
 }
 
+h1 {
+    font-weight: 800;
+    font-size: 2em;
+    margin: 10px 0px 10px 0px;
+}
+
 .texto {
     color: var(--cor5);
+}
+
+#descricao {
+    margin-bottom: 30px;
+}
+
+.botao {
+    background-color: var(--cor2);
+    color: white;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 5px;
+    width: 200px;
+    height: 40px;
+    text-transform: uppercase;
+}
+
+.botao:hover {
+    background-color: var(--cor6);
 }
 
 #card01 {
@@ -76,6 +101,7 @@ main {
     height: 400px;
     text-align: justify;
     padding: 10px;
+    margin-top: 50px;
 }
 
 #card01 > h2 {
@@ -87,6 +113,11 @@ main {
     color: var(--cor3);
     font-size: 1.3em;
     padding: 20px 0px 10px 0px;
+    cursor: pointer;
+}
+
+#card01 > h3:hover {
+    color: var(--cor1);
 }
 
 #card01 > .texto {
@@ -101,6 +132,14 @@ hr {
 #card02 {
     margin: 50px 0px 50px 0px;
     font-size: 1.5em;
+}
+
+#card02 h3 {
+    cursor: pointer;
+}
+
+#card02 h3:hover {
+    color: var(--cor2);
 }
 
 
